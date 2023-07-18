@@ -1,0 +1,98 @@
+/* Estilos para la página de películas */
+
+header {
+  background: linear-gradient(to right, #F50076, #0069F4);
+  padding: 20px;
+  text-align: center;
+}
+iframe {
+  border: none;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #F50076;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #F50076;
+  font-weight: bold;
+}
+body {
+  background-image: url(peces.gif);
+  background-size: cover;
+}
+section.pelicula {
+  position: relative;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 40px;
+  box-shadow: 4px 4px 8px #cccccc;
+  text-align: center;
+  overflow: hidden;
+}
+
+section.pelicula img {
+  width: 600px;
+  height: 325px;
+  border-radius: 10px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+section.pelicula h2 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 20px;
+}
+
+section.pelicula p {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000000;
+  margin-top: 10px;
+}
+
+section.pelicula:hover img {
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section.pelicula {
+  animation: fadeIn 0.5s ease-in-out;
+}
+section {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 40px;
+  box-shadow: 4px 4px 8px #cccccc;
+}
+
+h2 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000000;
+}
+
